@@ -1,0 +1,2 @@
+ - Efficient use of IEnumerable, fluent; How to use it, extend it and how to avoid pitfalls.
+ - 
