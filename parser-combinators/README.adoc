@@ -1,26 +1,3 @@
 = Parser combinators
 
 == Introduction
-
-Parsing, in this context, will be defined as the process of analyzing plain text of known logical structure and map it to a hierchical data model.
-
-For example, a representation of a patient in the json format may look like this in plain text:
-
-[source]
-----
-{
-	"name": "John Doe",
-	"dateOfBirth": "1980-01-01"
-}
-----
-
-Which, when parsed, may be represented by a patient object here defined in C#
-
-[source, csharp]
-----
-public class Patient
-{
-    public string Name { get; }
-    public DateTime DateOfBirth { get; }
-}
-----
