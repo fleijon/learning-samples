@@ -1,19 +1,32 @@
 = Overview
 
-== Base
 
 == Testing
 
-=== EntityFramework
+== EntityFramework
 
-=== Cyber Security
+== Cyber Security
 
 link:./cyber-security/sql-injection/README.adoc[SQL injection]
 
-== Intermediate
+== Architectural Patterns
 
-== Advanced
+=== MVC
 
-== Uncategorized
+=== MVVM
+
+=== MVU
+
+== Testing
+
+== Other
 
 link:./parser-combinators/README.adoc[Parser Combinators]
+
+=== Smart Enums
+
+=== Async / Await
+
+=== Dependency Injection
+
+=== Sql, NoSql, Event sourcing
